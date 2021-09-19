@@ -13,7 +13,7 @@ arch=('any')
 url="https://github.com/pycontribs/ruyaml"
 license=('MIT')
 depends=('python')
-makedepends=('python-setuptools')
+makedepends=('python-setuptools' 'python-pip')
 source=(https://files.pythonhosted.org/packages/source/r/${_pkg}/${_pkg}-${pkgver}.tar.gz)
 sha512sums=('647362fc649d83bd591a4f69b42571fad56057a3d9e3d5ce57b12f4b4b8e71f62e02113870f407c7984605a284f79e352ac12a4be44da956434cc8d255b7f1b1')
 
